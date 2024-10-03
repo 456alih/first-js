@@ -1,0 +1,134 @@
+/* Container styles */
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 79px;
+}
+
+
+/* Header styles */
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header .text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header .underline {
+    width: 50px;
+    height: 4px;
+    background-color: #007bff;
+    /* Change this to the theme color if needed */
+    margin: 10px auto 0;
+}
+
+
+/* Input container */
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.input img,
+.input i {
+    margin-right: 10px;
+    color: #007bff;
+    /* Icon color */
+}
+
+.input input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.input input::placeholder {
+    color: #aaa;
+}
+
+
+/* Forgot password */
+
+.forgot-password {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.forgot-password span {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Submit buttons */
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.submit {
+    flex: 1;
+    padding: 10px 20px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 59px;
+    /* Button color */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+
+.gray {
+    background: #f9f9f9;
+    color: #aaa;
+}
+
+
+/* Media queries for responsiveness */
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+    .submit-container {
+        flex-direction: column;
+    }
+    .submit {
+        margin-bottom: 10px;
+    }
+}

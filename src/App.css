@@ -1,0 +1,100 @@
+/* General styles for the app */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+div {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar a {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+/* Home Styles */
+
+.home {
+    padding: 3rem;
+    background-color: #e0f7fa;
+}
+
+.home h1 {
+    color: #00796b;
+    font-size: 2.5rem;
+}
+
+.home p {
+    color: #004d40;
+    font-size: 1.2rem;
+}
+
+
+/* LoginSignup Styles */
+
+.login-signup {
+    padding: 2rem;
+    background-color: #f1f8e9;
+}
+
+.login-signup h2 {
+    color: #33691e;
+}
+
+.login-signup input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-signup button {
+    padding: 10px 20px;
+    background-color: #558b2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-signup button:hover {
+    background-color: #33691e;
+}
+
+
+/* About Styles */
+
+.about {
+    padding: 2rem;
+    background-color: #fff3e0;
+}
+
+.about h3 {
+    color: #e65100;
+}
+
+.about p {
+    color: #bf360c;
+}
